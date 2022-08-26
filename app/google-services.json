@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "212900375845",
+    "project_id": "doemais-6153b",
+    "storage_bucket": "doemais-6153b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212900375845:android:2cfb7819626ced971e7ecc",
+        "android_client_info": {
+          "package_name": "com.julioprojects.doemais"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212900375845-cquetknh8454p6v6gec151b2e0lq7nnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI9-Kirggi1CuW6WclmqB8FuGx4PKuFGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212900375845-cquetknh8454p6v6gec151b2e0lq7nnu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
