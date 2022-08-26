@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bloods_array">
+        <item><font fgcolor="#d62828">A+</font></item>
+        <item><font fgcolor="#d62828">B+</font></item>
+        <item><font fgcolor="#d62828">AB+</font></item>
+        <item><font fgcolor="#d62828">O+</font></item>
+        <item><font fgcolor="#d62828">A-</font></item>
+        <item><font fgcolor="#d62828">B-</font></item>
+        <item><font fgcolor="#d62828">AB-</font></item>
+        <item><font fgcolor="#d62828">O-</font></item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.Create.Create"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E93C3C">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_logo"
+        android:scaleType="center"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_doe" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_input"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+        android:hint="Nome Completo"
+        android:fontFamily="@font/inter"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_input"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:padding="10dp"
+        android:hint="Email"
+        android:fontFamily="@font/inter"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="24dp"
+        android:padding="10dp"
+        android:text="Tipo sanguíneo"
+        android:textStyle="bold"
+        android:fontFamily="@font/inter"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+    <Spinner
+        android:id="@+id/spn_blood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:entries="@array/bloods_array"
+        android:textAlignment="center"
+        android:background="@drawable/box_input"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_input"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:padding="10dp"
+        android:hint="Senha"
+        android:fontFamily="@font/inter"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        style="@style/PrimaryOutlinedButton"
+        android:text="Criar conta"
+        android:textColor="@color/white"/>
+
+
+
+
+</LinearLayout>
