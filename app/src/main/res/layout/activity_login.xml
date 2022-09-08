@@ -35,8 +35,8 @@
             android:background="@drawable/box_input"
             android:focusable="true"
             android:fontFamily="@font/inter"
-            android:inputType="textEmailAddress"
             android:hint="Digite seu email ou usuário"
+            android:inputType="textEmailAddress"
             android:padding="8dp" />
 
         <EditText
@@ -47,12 +47,13 @@
             android:layout_marginEnd="24dp"
             android:background="@drawable/box_input"
             android:focusable="true"
-            android:inputType="textPassword"
             android:fontFamily="@font/inter"
             android:hint="Digite sua senha"
+            android:inputType="textPassword"
             android:padding="8dp" />
 
         <TextView
+            android:id="@+id/tvForget"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -95,9 +96,9 @@
         <com.google.android.material.divider.MaterialDivider
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="16dp"
             app:dividerColor="#F1EBEB"
-            app:dividerThickness="2dp"
-            android:layout_margin="16dp"/>
+            app:dividerThickness="2dp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -111,22 +112,21 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:orientation="horizontal"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_marginTop="8dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:src="@drawable/facebook52" />
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginStart="16dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
                 android:src="@drawable/google" />
-
 
 
         </LinearLayout>

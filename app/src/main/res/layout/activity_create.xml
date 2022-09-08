@@ -9,6 +9,15 @@
     android:gravity="center"
     android:background="#E93C3C">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,6 +34,7 @@
         android:gravity="center"
         android:orientation="horizontal">
         <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivProfile"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="10dp"
@@ -121,7 +131,6 @@
         android:text="Criar conta"
         android:textColor="@color/white"/>
 
-
-
-
+    </LinearLayout>
+    </ScrollView>
 </LinearLayout>
