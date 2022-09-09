@@ -29,6 +29,8 @@ public class Login extends AppCompatActivity {
     // Instanciando firebase
     private FirebaseAuth mAuth;
 
+    private FirebaseUser currentUser;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -92,5 +94,4 @@ public class Login extends AppCompatActivity {
                     }
                 });
     }
-
 }
