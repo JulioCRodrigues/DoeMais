@@ -1,5 +1,7 @@
 package com.julioprojects.doemais.models;
 
+import com.google.firebase.database.Exclude;
+
 public class User {
 
     private String id;
@@ -49,6 +51,7 @@ public class User {
         this.blood_type = blood_type;
     }
 
+    @Exclude
     public String getPassword() {
         return password;
     }

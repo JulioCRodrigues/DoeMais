@@ -45,7 +45,11 @@ public class Login extends AppCompatActivity {
         binding.btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                login(binding.edtEmailLogin.getText().toString(), binding.edtPassLogin.getText().toString());
+                if(binding.edtEmailLogin.getText().toString().isEmpty() || binding.edtPassLogin.getText().toString().isEmpty()){
+                    Toast.makeText(Login.this, "Preencha os campos para continuar!", Toast.LENGTH_SHORT).show();
+                } else {
+                    login(binding.edtEmailLogin.getText().toString(), binding.edtPassLogin.getText().toString());
+                }
             }
         });
 
